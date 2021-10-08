@@ -501,175 +501,508 @@ INSERT INTO menu_item_has_allergy (menu_itemID, allergyID) VALUES
 (70, 29);
 
 
+INSERT INTO menu_item_has_ingredient (menu_itemid, ingredientid, qty, ingredint_unitid) VALUES
+ (29, 133, 15.2, 8),
+ (48, 23, 13.63, 5),
+ (67, 35, 47.68, 11),
+ (4, 77, 6.34, 10),
+ (60, 22, 29.72, 7),
+ (38, 124, 12.22, 1),
+ (31, 144, 73.14, 15),
+ (30, 135, 99.2, 13),
+ (64, 57, 63.59, 12),
+ (7, 10, 10.36, 5),
+ (54, 42, 91.31, 12),
+ (57, 68, 34.39, 7),
+ (66, 21, 17.28, 11),
+ (17, 44, 38.48, 11),
+ (44, 25, 96.9, 3),
+ (8, 83, 65.73, 6),
+ (70, 134, 40.14, 3),
+ (41, 30, 88.76, 1),
+ (66, 117, 66.32, 5),
+ (10, 5, 42.78, 6),
+ (52, 146, 15.57, 12),
+ (10, 41, 72.51, 12),
+ (41, 121, 80.32, 2),
+ (46, 90, 53.73, 5),
+ (68, 16, 88.16, 1),
+ (63, 90, 82.11, 15),
+ (11, 100, 8.45, 12),
+ (49, 85, 83.7, 3),
+ (11, 17, 25.18, 14),
+ (8, 105, 90.66, 14),
+ (25, 127, 36.55, 8),
+ (53, 78, 47.93, 11),
+ (68, 47, 81.66, 15),
+ (1, 64, 74.44, 4),
+ (66, 86, 95.02, 4),
+ (61, 92, 82.37, 4),
+ (21, 46, 57.53, 1),
+ (36, 87, 23.38, 2),
+ (2, 14, 29.65, 1),
+ (13, 19, 44.31, 13),
+ (25, 70, 28.66, 12),
+ (61, 40, 77.22, 12),
+ (28, 81, 30.65, 4),
+ (49, 36, 81.24, 1),
+ (41, 109, 51.37, 12),
+ (33, 143, 94.25, 12),
+ (13, 98, 4.75, 11),
+ (5, 73, 13.37, 1),
+ (37, 81, 96.3, 2),
+ (55, 10, 23.93, 13),
+ (20, 15, 20.03, 4),
+ (64, 43, 63.92, 13),
+ (45, 132, 42.94, 10),
+ (26, 122, 68.38, 3),
+ (27, 16, 97.67, 11),
+ (2, 10, 87.76, 1),
+ (70, 144, 13.23, 10),
+ (22, 68, 63.44, 14),
+ (11, 45, 50.76, 1),
+ (2, 127, 93.82, 7),
+ (62, 50, 46.71, 14),
+ (36, 99, 76.57, 4),
+ (22, 96, 14.17, 4),
+ (37, 78, 94.72, 3),
+ (48, 132, 66.16, 8),
+ (10, 62, 35.12, 3),
+ (59, 30, 78.46, 12),
+ (1, 126, 88.03, 15),
+ (70, 128, 67.11, 7),
+ (40, 20, 64.97, 15),
+ (65, 28, 67.45, 5),
+ (47, 77, 65.54, 9),
+ (5, 81, 45.55, 8),
+ (6, 33, 22.4, 3),
+ (11, 72, 33.6, 3),
+ (14, 106, 17.8, 1),
+ (25, 73, 92.6, 14),
+ (62, 136, 8.52, 7),
+ (6, 25, 28.19, 3),
+ (10, 124, 99.94, 13),
+ (55, 127, 12.68, 9),
+ (27, 18, 51.41, 6),
+ (51, 107, 20.37, 3),
+ (64, 4, 37.63, 13),
+ (33, 137, 12.41, 3),
+ (36, 54, 61.82, 2),
+ (62, 141, 96.22, 1),
+ (55, 58, 43.75, 6),
+ (24, 123, 14.55, 15),
+ (40, 85, 73.85, 13),
+ (38, 32, 49.46, 12),
+ (54, 144, 70.86, 10),
+ (52, 57, 61.9, 15),
+ (62, 85, 56.13, 8),
+ (58, 136, 28.17, 9),
+ (45, 97, 38.64, 7),
+ (29, 51, 18.67, 5),
+ (47, 6, 61.94, 11),
+ (25, 85, 56.95, 9),
+ (65, 89, 56.4, 11),
+ (69, 85, 74.67, 12),
+ (36, 145, 52.17, 4),
+ (70, 85, 21.44, 8),
+ (63, 49, 52.64, 4),
+ (65, 23, 19.86, 10),
+ (13, 64, 87.09, 12),
+ (61, 46, 36.43, 8),
+ (25, 48, 7.25, 1),
+ (43, 99, 81.36, 13),
+ (26, 15, 53.89, 11),
+ (58, 119, 91.9, 2),
+ (19, 131, 78.14, 1),
+ (12, 78, 47.97, 1),
+ (30, 48, 22.45, 1),
+ (48, 141, 18.33, 11),
+ (42, 91, 26.36, 11),
+ (31, 51, 59.39, 1),
+ (8, 78, 19.35, 4),
+ (54, 35, 29.26, 5),
+ (7, 61, 79.51, 3),
+ (57, 33, 16.47, 3),
+ (41, 108, 70.06, 9),
+ (23, 110, 18.8, 8),
+ (29, 126, 87.55, 11),
+ (16, 47, 88.19, 4),
+ (55, 144, 81.31, 10),
+ (1, 2, 48.6, 1),
+ (14, 138, 88.18, 13),
+ (26, 3, 24.97, 15),
+ (41, 11, 51.85, 9),
+ (1, 100, 5.5, 9),
+ (17, 131, 26.36, 1),
+ (47, 54, 56.7, 15),
+ (5, 6, 53.37, 15),
+ (35, 35, 6.96, 14),
+ (23, 144, 87.83, 3),
+ (27, 128, 76.77, 4),
+ (45, 90, 11.47, 15),
+ (49, 8, 2.19, 8),
+ (60, 81, 93.92, 2),
+ (23, 96, 65.56, 8),
+ (39, 56, 55.06, 4),
+ (67, 14, 7.98, 2),
+ (18, 72, 97.3, 2),
+ (55, 19, 56.02, 4),
+ (22, 120, 83.82, 3),
+ (66, 137, 73.6, 4),
+ (18, 90, 30.24, 4),
+ (13, 33, 79.45, 2),
+ (45, 53, 53.48, 14),
+ (15, 77, 81.06, 4),
+ (18, 129, 25.92, 4),
+ (21, 140, 98.34, 14),
+ (29, 71, 71.08, 4),
+ (2, 34, 25.29, 10),
+ (4, 70, 27.65, 2),
+ (39, 42, 57.55, 6),
+ (45, 62, 17.47, 5),
+ (28, 83, 99.45, 8),
+ (37, 85, 37.66, 2),
+ (38, 24, 12.12, 1),
+ (35, 150, 63.89, 2),
+ (58, 140, 79.7, 3),
+ (28, 9, 3.53, 12),
+ (26, 102, 83.76, 12),
+ (16, 39, 71.18, 4),
+ (10, 30, 80.78, 4),
+ (19, 57, 34.24, 12),
+ (8, 101, 37.67, 1),
+ (7, 119, 65.41, 10),
+ (7, 43, 10.91, 1),
+ (25, 78, 84.15, 12),
+ (68, 57, 88.17, 6),
+ (41, 71, 93.57, 9),
+ (30, 20, 1.54, 2),
+ (22, 147, 13.79, 13),
+ (54, 55, 99.96, 15),
+ (41, 121, 57.82, 1),
+ (50, 150, 52.26, 6),
+ (23, 49, 68.4, 13),
+ (14, 137, 92.32, 9),
+ (2, 12, 58.92, 13),
+ (22, 125, 14.59, 15),
+ (19, 40, 10.72, 11),
+ (4, 99, 62.94, 14),
+ (41, 24, 61.95, 14),
+ (50, 71, 66.44, 8),
+ (40, 129, 64.87, 10),
+ (45, 43, 86.79, 5),
+ (45, 144, 49.77, 8),
+ (44, 31, 59.45, 5),
+ (70, 86, 58.76, 9),
+ (28, 7, 34.22, 6),
+ (27, 13, 15.44, 13),
+ (57, 149, 23.5, 11),
+ (42, 14, 20.01, 7),
+ (60, 11, 76.46, 8),
+ (53, 24, 41.44, 4),
+ (18, 2, 41.52, 9),
+ (29, 67, 74.34, 1),
+ (70, 107, 28.31, 1),
+ (55, 72, 60.51, 15),
+ (44, 42, 78.57, 3),
+ (69, 147, 14.47, 7),
+ (41, 88, 37.8, 1),
+ (16, 41, 81.07, 9),
+ (40, 121, 26.93, 9),
+ (29, 131, 46.49, 5),
+ (41, 79, 30.9, 6),
+ (13, 136, 25.81, 10),
+ (19, 84, 85.46, 10),
+ (40, 33, 67.27, 15),
+ (48, 37, 52.88, 10),
+ (18, 60, 90.19, 2),
+ (37, 46, 28.83, 4),
+ (4, 89, 7.44, 2),
+ (55, 90, 35.01, 10),
+ (62, 121, 1.66, 9),
+ (13, 112, 60.22, 14),
+ (4, 100, 83.94, 2),
+ (2, 29, 24.88, 13),
+ (43, 103, 49.49, 1),
+ (68, 52, 29.85, 10),
+ (54, 119, 53.37, 11),
+ (62, 46, 99.13, 10),
+ (38, 35, 53.75, 10),
+ (68, 149, 14.11, 13),
+ (68, 18, 28.91, 4),
+ (12, 57, 76.51, 10),
+ (28, 112, 84.22, 4),
+ (43, 111, 31.51, 11),
+ (61, 9, 52.7, 12),
+ (26, 2, 31.62, 12),
+ (1, 144, 15.41, 9),
+ (61, 144, 64.51, 13),
+ (57, 141, 98.98, 6),
+ (15, 94, 18.26, 1),
+ (18, 44, 74.51, 4),
+ (15, 146, 47.84, 13),
+ (16, 109, 61.69, 13),
+ (62, 95, 68.59, 7),
+ (49, 147, 43.68, 13),
+ (44, 118, 39.63, 12),
+ (69, 134, 71.06, 2),
+ (51, 108, 80.7, 13),
+ (21, 11, 8.77, 6),
+ (4, 145, 13.91, 7),
+ (28, 135, 78.18, 1),
+ (23, 138, 58.2, 13),
+ (3, 35, 5.24, 7),
+ (10, 123, 88.37, 5),
+ (46, 96, 56.86, 8),
+ (43, 121, 90.99, 12),
+ (43, 82, 44.15, 9),
+ (34, 99, 21.08, 5),
+ (57, 3, 68.85, 3),
+ (27, 38, 4.64, 11),
+ (12, 25, 5.08, 13),
+ (55, 126, 39.93, 15),
+ (46, 50, 54.54, 5),
+ (39, 144, 3.71, 12),
+ (28, 98, 3.06, 3),
+ (68, 27, 69.98, 1),
+ (27, 103, 93.86, 2),
+ (64, 19, 59.1, 5),
+ (31, 138, 28.53, 5),
+ (68, 141, 18.11, 10),
+ (2, 14, 74.97, 6),
+ (35, 101, 25.0, 13),
+ (47, 141, 17.57, 12),
+ (19, 92, 81.05, 13),
+ (36, 64, 88.19, 11),
+ (63, 123, 3.64, 3),
+ (11, 35, 39.97, 15),
+ (19, 75, 81.35, 1),
+ (32, 91, 34.28, 4),
+ (8, 138, 21.46, 5),
+ (54, 30, 38.05, 9),
+ (2, 46, 14.17, 13),
+ (50, 140, 69.24, 3),
+ (22, 117, 97.68, 12),
+ (9, 33, 40.69, 2),
+ (16, 3, 60.38, 7),
+ (19, 127, 90.83, 1),
+ (34, 99, 11.46, 15),
+ (62, 87, 6.42, 6),
+ (55, 73, 78.02, 8),
+ (23, 91, 95.59, 14),
+ (29, 141, 12.93, 12),
+ (51, 13, 54.44, 5),
+ (63, 84, 75.67, 14),
+ (51, 113, 68.38, 1),
+ (30, 28, 41.67, 10),
+ (64, 112, 8.46, 7),
+ (56, 84, 91.31, 1),
+ (18, 81, 48.5, 12),
+ (32, 134, 55.65, 12),
+ (17, 107, 49.8, 12),
+ (49, 78, 55.37, 5),
+ (55, 69, 9.08, 11),
+ (18, 5, 70.33, 8),
+ (22, 11, 51.9, 7),
+ (1, 50, 51.22, 15),
+ (18, 124, 25.1, 1),
+ (33, 104, 39.64, 4),
+ (51, 27, 97.6, 15),
+ (38, 105, 20.88, 7),
+ (9, 107, 2.47, 12),
+ (44, 79, 93.95, 2),
+ (70, 98, 45.33, 2),
+ (15, 125, 1.53, 9),
+ (46, 94, 53.41, 9),
+ (53, 107, 19.17, 10),
+ (17, 50, 16.64, 7),
+ (44, 53, 65.03, 15),
+ (42, 134, 50.94, 2),
+ (13, 79, 33.2, 12),
+ (11, 123, 18.87, 15),
+ (4, 122, 41.88, 10),
+ (23, 70, 31.15, 11),
+ (50, 33, 10.61, 12),
+ (14, 94, 55.64, 11),
+ (65, 6, 64.5, 10),
+ (57, 75, 30.44, 5),
+ (14, 99, 17.63, 1),
+ (25, 143, 64.27, 13),
+ (41, 109, 59.08, 8),
+ (40, 37, 4.8, 14),
+ (64, 39, 59.82, 8),
+ (47, 21, 13.85, 5),
+ (35, 43, 15.38, 5),
+ (67, 43, 97.63, 2),
+ (5, 21, 89.28, 3),
+ (32, 119, 45.0, 6),
+ (28, 88, 92.53, 1),
+ (51, 115, 49.23, 8),
+ (30, 37, 51.23, 5),
+ (27, 11, 3.44, 11),
+ (42, 18, 16.18, 12),
+ (62, 20, 80.08, 1),
+ (36, 144, 61.72, 8),
+ (33, 125, 43.96, 13),
+ (34, 118, 74.69, 14),
+ (14, 151, 84.07, 1),
+ (19, 102, 8.15, 2),
+ (38, 14, 11.06, 1),
+ (9, 112, 43.11, 5),
+ (29, 137, 77.1, 8),
+ (38, 17, 12.02, 13),
+ (57, 124, 1.97, 11),
+ (46, 89, 50.51, 13),
+ (51, 99, 10.35, 5),
+ (55, 29, 23.31, 9),
+ (28, 14, 21.41, 15),
+ (65, 17, 76.72, 12),
+ (44, 146, 80.68, 11),
+ (30, 150, 29.74, 3),
+ (4, 129, 96.04, 14),
+ (7, 80, 37.65, 8),
+ (53, 134, 96.32, 13),
+ (26, 125, 15.58, 13),
+ (69, 85, 10.69, 15),
+ (12, 52, 74.55, 6),
+ (1, 87, 60.28, 7),
+ (61, 87, 71.19, 3),
+ (50, 117, 94.18, 15),
+ (63, 125, 25.85, 2),
+ (54, 145, 58.48, 10),
+ (56, 137, 82.23, 12),
+ (20, 70, 80.27, 2),
+ (42, 61, 54.28, 2),
+ (21, 73, 98.35, 15),
+ (22, 52, 77.11, 4),
+ (62, 33, 23.87, 1),
+ (56, 19, 16.86, 3),
+ (39, 79, 2.83, 8),
+ (49, 63, 28.88, 8),
+ (39, 18, 24.52, 1),
+ (12, 64, 2.2, 9),
+ (35, 3, 67.45, 7),
+ (8, 149, 64.55, 2),
+ (58, 2, 63.74, 10),
+ (53, 70, 4.34, 2),
+ (1, 142, 87.51, 5),
+ (38, 81, 7.04, 7),
+ (46, 137, 24.12, 12),
+ (30, 101, 32.15, 15),
+ (40, 37, 41.29, 7),
+ (51, 4, 10.23, 9),
+ (59, 33, 32.72, 7),
+ (40, 102, 2.54, 11),
+ (38, 37, 37.84, 11),
+ (33, 39, 23.32, 8),
+ (21, 33, 30.78, 6),
+ (61, 60, 42.97, 3),
+ (27, 4, 36.36, 12),
+ (47, 45, 21.88, 6),
+ (64, 112, 12.24, 10),
+ (64, 123, 78.23, 10),
+ (42, 69, 26.59, 13),
+ (18, 20, 69.5, 5),
+ (59, 68, 16.14, 13),
+ (35, 28, 45.83, 7),
+ (69, 10, 38.2, 10),
+ (66, 102, 85.18, 7),
+ (44, 7, 60.65, 12),
+ (37, 54, 69.75, 1),
+ (36, 103, 8.02, 10),
+ (47, 92, 89.85, 10),
+ (56, 8, 35.88, 10),
+ (2, 134, 96.4, 6),
+ (16, 112, 19.45, 13),
+ (56, 141, 74.53, 5),
+ (36, 143, 81.1, 13),
+ (21, 91, 54.21, 2),
+ (20, 112, 69.54, 14),
+ (6, 105, 96.91, 3),
+ (46, 68, 57.87, 13),
+ (62, 125, 51.96, 8),
+ (36, 46, 1.48, 9),
+ (29, 113, 79.88, 9),
+ (51, 45, 78.02, 10),
+ (66, 127, 90.23, 9),
+ (22, 133, 92.83, 3),
+ (3, 150, 80.52, 8),
+ (48, 143, 38.94, 12),
+ (26, 21, 91.62, 4),
+ (62, 16, 7.04, 3),
+ (1, 84, 94.01, 1),
+ (42, 148, 91.49, 9),
+ (36, 28, 94.88, 5),
+ (32, 29, 77.21, 2),
+ (21, 117, 36.48, 4),
+ (39, 107, 58.88, 11),
+ (25, 21, 95.23, 3),
+ (53, 93, 94.68, 6),
+ (49, 102, 77.73, 9),
+ (25, 43, 63.07, 7),
+ (14, 18, 52.41, 12),
+ (17, 13, 41.78, 9),
+ (4, 124, 41.83, 5),
+ (6, 11, 3.51, 15),
+ (22, 29, 15.31, 15),
+ (50, 46, 16.84, 15),
+ (70, 28, 62.17, 4),
+ (26, 83, 39.91, 8),
+ (42, 59, 48.16, 7),
+ (61, 26, 77.31, 3),
+ (44, 71, 38.33, 14),
+ (24, 58, 94.72, 9),
+ (53, 54, 14.34, 1),
+ (67, 129, 28.51, 2),
+ (30, 67, 8.9, 12),
+ (62, 106, 72.44, 3),
+ (70, 34, 28.23, 15),
+ (42, 86, 35.07, 15),
+ (31, 45, 53.58, 6),
+ (53, 123, 62.46, 9),
+ (3, 110, 9.72, 3),
+ (55, 71, 98.88, 7),
+ (29, 55, 39.39, 9),
+ (13, 118, 34.5, 10),
+ (49, 146, 53.77, 12),
+ (23, 38, 90.15, 15),
+ (65, 17, 81.41, 6),
+ (40, 53, 86.46, 3),
+ (2, 85, 90.19, 7),
+ (36, 72, 5.55, 11),
+ (70, 88, 77.61, 12),
+ (23, 47, 56.24, 5),
+ (17, 23, 14.92, 12),
+ (39, 79, 65.57, 8),
+ (6, 104, 46.12, 6),
+ (69, 51, 47.83, 6),
+ (4, 3, 66.79, 11),
+ (21, 20, 22.46, 6),
+ (33, 30, 1.2, 11),
+ (47, 28, 86.47, 9),
+ (41, 34, 14.43, 6),
+ (38, 142, 63.2, 13),
+ (46, 105, 67.57, 8),
+ (24, 46, 42.79, 13),
+ (51, 34, 45.64, 12),
+ (27, 118, 45.09, 7),
+ (18, 144, 11.56, 8),
+ (61, 120, 14.79, 2),
+ (67, 137, 61.88, 2),
+ (4, 60, 86.92, 8),
+ (17, 72, 94.56, 13),
+ (58, 91, 29.76, 2),
+ (41, 127, 31.54, 3),
+ (41, 56, 39.94, 9),
+ (14, 73, 44.06, 10),
+ (48, 121, 60.27, 5),
+ (51, 24, 91.6, 14),
+ (33, 135, 59.63, 8),
+ (65, 107, 66.26, 6),
+ (54, 74, 99.95, 3),
+ (57, 77, 92.35, 11),
+ (37, 22, 91.16, 6);
 
-INSERT INTO menu_item_has_ingredient (inputID, menu_itemID, ingredientID) VALUES
-(1, 69, 125),
-(2, 8, 144),
-(3, 5, 150),
-(4, 27, 88),
-(5, 5, 51),
-(6, 16, 29),
-(7, 35, 20),
-(8, 28, 98),
-(9, 53, 30),
-(10, 40, 142),
-(11, 26, 86),
-(12, 33, 136),
-(13, 53, 37),
-(14, 63, 67),
-(15, 34, 121),
-(16, 42, 113),
-(17, 13, 138),
-(18, 4, 135),
-(19, 53, 136),
-(20, 1, 146),
-(21, 7, 17),
-(22, 16, 66),
-(23, 42, 144),
-(24, 13, 134),
-(25, 48, 26),
-(26, 57, 104),
-(27, 20, 58),
-(28, 52, 45),
-(29, 21, 58),
-(30, 4, 74),
-(31, 63, 27),
-(32, 9, 89),
-(33, 38, 122),
-(34, 24, 31),
-(35, 68, 18),
-(36, 63, 15),
-(37, 2, 135),
-(38, 64, 100),
-(39, 42, 147),
-(40, 43, 91),
-(41, 29, 113),
-(42, 48, 112),
-(43, 13, 25),
-(44, 42, 23),
-(45, 15, 53),
-(46, 15, 58),
-(47, 28, 132),
-(48, 8, 101),
-(49, 34, 126),
-(50, 46, 8),
-(51, 54, 35),
-(52, 22, 68),
-(53, 69, 123),
-(54, 60, 118),
-(55, 18, 73),
-(56, 67, 54),
-(57, 15, 51),
-(58, 9, 126),
-(59, 63, 82),
-(60, 47, 127),
-(61, 4, 33),
-(62, 9, 147),
-(63, 27, 114),
-(64, 28, 30),
-(65, 1, 36),
-(66, 35, 34),
-(67, 62, 136),
-(68, 45, 131),
-(69, 65, 103),
-(70, 51, 120),
-(71, 9, 84),
-(72, 57, 128),
-(73, 50, 110),
-(74, 15, 81),
-(75, 35, 32),
-(76, 41, 89),
-(77, 42, 84),
-(78, 60, 21),
-(79, 26, 139),
-(80, 44, 23),
-(81, 13, 143),
-(82, 56, 126),
-(83, 45, 46),
-(84, 69, 113),
-(85, 67, 10),
-(86, 24, 80),
-(87, 54, 65),
-(88, 2, 90),
-(89, 48, 25),
-(90, 57, 6),
-(91, 5, 47),
-(92, 62, 56),
-(93, 5, 6),
-(94, 68, 116),
-(95, 46, 8),
-(96, 45, 39),
-(98, 26, 85),
-(99, 52, 45),
-(100, 21, 58),
-(101, 4, 74),
-(102, 63, 27),
-(103, 9, 89),
-(104, 38, 122),
-(105, 24, 31),
-(106, 68, 18),
-(107, 63, 15),
-(108, 2, 135),
-(109, 64, 100),
-(110, 42, 147),
-(111, 43, 91),
-(112, 29, 113),
-(113, 48, 112),
-(114, 13, 25),
-(115, 42, 23),
-(116, 15, 53),
-(117, 15, 58),
-(118, 28, 132),
-(119, 8, 101),
-(120, 34, 126),
-(121, 46, 8),
-(122, 54, 35),
-(123, 22, 68),
-(124, 69, 123),
-(125, 60, 118),
-(126, 18, 73),
-(127, 67, 54),
-(128, 15, 51),
-(129, 9, 126),
-(130, 63, 82),
-(131, 47, 127),
-(132, 4, 33),
-(133, 9, 147),
-(134, 27, 114),
-(135, 28, 30),
-(136, 1, 36),
-(137, 35, 34),
-(138, 62, 136),
-(139, 45, 131),
-(140, 65, 103),
-(141, 51, 120),
-(142, 9, 84),
-(143, 57, 128),
-(144, 50, 110),
-(145, 15, 81),
-(146, 35, 32),
-(147, 41, 89),
-(148, 42, 84),
-(149, 60, 21),
-(150, 26, 139),
-(151, 44, 23),
-(152, 13, 143),
-(153, 56, 126),
-(154, 45, 46),
-(155, 69, 113),
-(156, 67, 10),
-(157, 24, 80),
-(158, 54, 65),
-(159, 2, 90),
-(160, 48, 25),
-(161, 57, 6),
-(162, 5, 47),
-(163, 62, 56),
-(164, 5, 6),
-(165, 68, 116),
-(166, 46, 8),
-(167, 45, 39),
-(169, 26, 85);
 
 
 
@@ -2790,507 +3123,507 @@ INSERT INTO reservation_has_allergy (inputID, reservationID, allergyID) VALUES
 (1048, 401, 18),
 (1049, 359, 1);
 
-
-insert into reservation_preorder (reservationID, menu_itemID) values (428, 3);
-insert into reservation_preorder (reservationID, menu_itemID) values (325, 32);
-insert into reservation_preorder (reservationID, menu_itemID) values (354, 36);
-insert into reservation_preorder (reservationID, menu_itemID) values (587, 29);
-insert into reservation_preorder (reservationID, menu_itemID) values (304, 1);
-insert into reservation_preorder (reservationID, menu_itemID) values (638, 45);
-insert into reservation_preorder (reservationID, menu_itemID) values (322, 12);
-insert into reservation_preorder (reservationID, menu_itemID) values (776, 6);
-insert into reservation_preorder (reservationID, menu_itemID) values (31, 29);
-insert into reservation_preorder (reservationID, menu_itemID) values (642, 4);
-insert into reservation_preorder (reservationID, menu_itemID) values (557, 20);
-insert into reservation_preorder (reservationID, menu_itemID) values (464, 4);
-insert into reservation_preorder (reservationID, menu_itemID) values (340, 67);
-insert into reservation_preorder (reservationID, menu_itemID) values (668, 67);
-insert into reservation_preorder (reservationID, menu_itemID) values (493, 59);
-insert into reservation_preorder (reservationID, menu_itemID) values (532, 17);
-insert into reservation_preorder (reservationID, menu_itemID) values (411, 6);
-insert into reservation_preorder (reservationID, menu_itemID) values (94, 61);
-insert into reservation_preorder (reservationID, menu_itemID) values (684, 21);
-insert into reservation_preorder (reservationID, menu_itemID) values (632, 45);
-insert into reservation_preorder (reservationID, menu_itemID) values (361, 47);
-insert into reservation_preorder (reservationID, menu_itemID) values (258, 63);
-insert into reservation_preorder (reservationID, menu_itemID) values (683, 41);
-insert into reservation_preorder (reservationID, menu_itemID) values (422, 35);
-insert into reservation_preorder (reservationID, menu_itemID) values (736, 54);
-insert into reservation_preorder (reservationID, menu_itemID) values (275, 50);
-insert into reservation_preorder (reservationID, menu_itemID) values (520, 23);
-insert into reservation_preorder (reservationID, menu_itemID) values (767, 29);
-insert into reservation_preorder (reservationID, menu_itemID) values (138, 59);
-insert into reservation_preorder (reservationID, menu_itemID) values (31, 24);
-insert into reservation_preorder (reservationID, menu_itemID) values (513, 4);
-insert into reservation_preorder (reservationID, menu_itemID) values (157, 37);
-insert into reservation_preorder (reservationID, menu_itemID) values (450, 68);
-insert into reservation_preorder (reservationID, menu_itemID) values (111, 17);
-insert into reservation_preorder (reservationID, menu_itemID) values (525, 61);
-insert into reservation_preorder (reservationID, menu_itemID) values (213, 63);
-insert into reservation_preorder (reservationID, menu_itemID) values (641, 25);
-insert into reservation_preorder (reservationID, menu_itemID) values (693, 59);
-insert into reservation_preorder (reservationID, menu_itemID) values (297, 51);
-insert into reservation_preorder (reservationID, menu_itemID) values (604, 33);
-insert into reservation_preorder (reservationID, menu_itemID) values (176, 48);
-insert into reservation_preorder (reservationID, menu_itemID) values (123, 17);
-insert into reservation_preorder (reservationID, menu_itemID) values (675, 6);
-insert into reservation_preorder (reservationID, menu_itemID) values (797, 69);
-insert into reservation_preorder (reservationID, menu_itemID) values (293, 49);
-insert into reservation_preorder (reservationID, menu_itemID) values (205, 20);
-insert into reservation_preorder (reservationID, menu_itemID) values (163, 50);
-insert into reservation_preorder (reservationID, menu_itemID) values (6, 56);
-insert into reservation_preorder (reservationID, menu_itemID) values (10, 53);
-insert into reservation_preorder (reservationID, menu_itemID) values (686, 4);
-insert into reservation_preorder (reservationID, menu_itemID) values (166, 34);
-insert into reservation_preorder (reservationID, menu_itemID) values (384, 16);
-insert into reservation_preorder (reservationID, menu_itemID) values (236, 9);
-insert into reservation_preorder (reservationID, menu_itemID) values (540, 69);
-insert into reservation_preorder (reservationID, menu_itemID) values (39, 21);
-insert into reservation_preorder (reservationID, menu_itemID) values (614, 18);
-insert into reservation_preorder (reservationID, menu_itemID) values (43, 1);
-insert into reservation_preorder (reservationID, menu_itemID) values (485, 44);
-insert into reservation_preorder (reservationID, menu_itemID) values (186, 11);
-insert into reservation_preorder (reservationID, menu_itemID) values (418, 5);
-insert into reservation_preorder (reservationID, menu_itemID) values (551, 27);
-insert into reservation_preorder (reservationID, menu_itemID) values (129, 13);
-insert into reservation_preorder (reservationID, menu_itemID) values (88, 28);
-insert into reservation_preorder (reservationID, menu_itemID) values (413, 51);
-insert into reservation_preorder (reservationID, menu_itemID) values (631, 39);
-insert into reservation_preorder (reservationID, menu_itemID) values (415, 52);
-insert into reservation_preorder (reservationID, menu_itemID) values (518, 59);
-insert into reservation_preorder (reservationID, menu_itemID) values (508, 53);
-insert into reservation_preorder (reservationID, menu_itemID) values (458, 63);
-insert into reservation_preorder (reservationID, menu_itemID) values (751, 24);
-insert into reservation_preorder (reservationID, menu_itemID) values (190, 19);
-insert into reservation_preorder (reservationID, menu_itemID) values (265, 11);
-insert into reservation_preorder (reservationID, menu_itemID) values (161, 45);
-insert into reservation_preorder (reservationID, menu_itemID) values (566, 53);
-insert into reservation_preorder (reservationID, menu_itemID) values (665, 27);
-insert into reservation_preorder (reservationID, menu_itemID) values (555, 68);
-insert into reservation_preorder (reservationID, menu_itemID) values (364, 4);
-insert into reservation_preorder (reservationID, menu_itemID) values (479, 67);
-insert into reservation_preorder (reservationID, menu_itemID) values (374, 26);
-insert into reservation_preorder (reservationID, menu_itemID) values (723, 37);
-insert into reservation_preorder (reservationID, menu_itemID) values (505, 59);
-insert into reservation_preorder (reservationID, menu_itemID) values (98, 42);
-insert into reservation_preorder (reservationID, menu_itemID) values (201, 41);
-insert into reservation_preorder (reservationID, menu_itemID) values (87, 1);
-insert into reservation_preorder (reservationID, menu_itemID) values (489, 37);
-insert into reservation_preorder (reservationID, menu_itemID) values (448, 58);
-insert into reservation_preorder (reservationID, menu_itemID) values (597, 14);
-insert into reservation_preorder (reservationID, menu_itemID) values (337, 52);
-insert into reservation_preorder (reservationID, menu_itemID) values (430, 35);
-insert into reservation_preorder (reservationID, menu_itemID) values (131, 20);
-insert into reservation_preorder (reservationID, menu_itemID) values (748, 41);
-insert into reservation_preorder (reservationID, menu_itemID) values (521, 69);
-insert into reservation_preorder (reservationID, menu_itemID) values (201, 52);
-insert into reservation_preorder (reservationID, menu_itemID) values (234, 32);
-insert into reservation_preorder (reservationID, menu_itemID) values (620, 47);
-insert into reservation_preorder (reservationID, menu_itemID) values (750, 58);
-insert into reservation_preorder (reservationID, menu_itemID) values (94, 31);
-insert into reservation_preorder (reservationID, menu_itemID) values (614, 12);
-insert into reservation_preorder (reservationID, menu_itemID) values (245, 31);
-insert into reservation_preorder (reservationID, menu_itemID) values (623, 9);
-insert into reservation_preorder (reservationID, menu_itemID) values (405, 38);
-insert into reservation_preorder (reservationID, menu_itemID) values (770, 54);
-insert into reservation_preorder (reservationID, menu_itemID) values (194, 64);
-insert into reservation_preorder (reservationID, menu_itemID) values (21, 36);
-insert into reservation_preorder (reservationID, menu_itemID) values (30, 34);
-insert into reservation_preorder (reservationID, menu_itemID) values (382, 38);
-insert into reservation_preorder (reservationID, menu_itemID) values (687, 69);
-insert into reservation_preorder (reservationID, menu_itemID) values (656, 17);
-insert into reservation_preorder (reservationID, menu_itemID) values (763, 24);
-insert into reservation_preorder (reservationID, menu_itemID) values (44, 33);
-insert into reservation_preorder (reservationID, menu_itemID) values (211, 4);
-insert into reservation_preorder (reservationID, menu_itemID) values (40, 68);
-insert into reservation_preorder (reservationID, menu_itemID) values (468, 18);
-insert into reservation_preorder (reservationID, menu_itemID) values (282, 39);
-insert into reservation_preorder (reservationID, menu_itemID) values (164, 45);
-insert into reservation_preorder (reservationID, menu_itemID) values (75, 29);
-insert into reservation_preorder (reservationID, menu_itemID) values (158, 45);
-insert into reservation_preorder (reservationID, menu_itemID) values (718, 28);
-insert into reservation_preorder (reservationID, menu_itemID) values (134, 34);
-insert into reservation_preorder (reservationID, menu_itemID) values (672, 60);
-insert into reservation_preorder (reservationID, menu_itemID) values (401, 61);
-insert into reservation_preorder (reservationID, menu_itemID) values (391, 20);
-insert into reservation_preorder (reservationID, menu_itemID) values (245, 47);
-insert into reservation_preorder (reservationID, menu_itemID) values (656, 51);
-insert into reservation_preorder (reservationID, menu_itemID) values (166, 8);
-insert into reservation_preorder (reservationID, menu_itemID) values (421, 5);
-insert into reservation_preorder (reservationID, menu_itemID) values (152, 30);
-insert into reservation_preorder (reservationID, menu_itemID) values (710, 1);
-insert into reservation_preorder (reservationID, menu_itemID) values (280, 43);
-insert into reservation_preorder (reservationID, menu_itemID) values (431, 5);
-insert into reservation_preorder (reservationID, menu_itemID) values (596, 37);
-insert into reservation_preorder (reservationID, menu_itemID) values (569, 26);
-insert into reservation_preorder (reservationID, menu_itemID) values (328, 6);
-insert into reservation_preorder (reservationID, menu_itemID) values (376, 24);
-insert into reservation_preorder (reservationID, menu_itemID) values (533, 6);
-insert into reservation_preorder (reservationID, menu_itemID) values (39, 4);
-insert into reservation_preorder (reservationID, menu_itemID) values (257, 3);
-insert into reservation_preorder (reservationID, menu_itemID) values (120, 16);
-insert into reservation_preorder (reservationID, menu_itemID) values (376, 14);
-insert into reservation_preorder (reservationID, menu_itemID) values (64, 67);
-insert into reservation_preorder (reservationID, menu_itemID) values (657, 60);
-insert into reservation_preorder (reservationID, menu_itemID) values (42, 40);
-insert into reservation_preorder (reservationID, menu_itemID) values (190, 29);
-insert into reservation_preorder (reservationID, menu_itemID) values (267, 33);
-insert into reservation_preorder (reservationID, menu_itemID) values (492, 19);
-insert into reservation_preorder (reservationID, menu_itemID) values (306, 70);
-insert into reservation_preorder (reservationID, menu_itemID) values (595, 18);
-insert into reservation_preorder (reservationID, menu_itemID) values (564, 38);
-insert into reservation_preorder (reservationID, menu_itemID) values (758, 39);
-insert into reservation_preorder (reservationID, menu_itemID) values (441, 60);
-insert into reservation_preorder (reservationID, menu_itemID) values (209, 6);
-insert into reservation_preorder (reservationID, menu_itemID) values (291, 21);
-insert into reservation_preorder (reservationID, menu_itemID) values (600, 63);
-insert into reservation_preorder (reservationID, menu_itemID) values (233, 61);
-insert into reservation_preorder (reservationID, menu_itemID) values (149, 14);
-insert into reservation_preorder (reservationID, menu_itemID) values (612, 61);
-insert into reservation_preorder (reservationID, menu_itemID) values (184, 43);
-insert into reservation_preorder (reservationID, menu_itemID) values (168, 16);
-insert into reservation_preorder (reservationID, menu_itemID) values (18, 21);
-insert into reservation_preorder (reservationID, menu_itemID) values (342, 61);
-insert into reservation_preorder (reservationID, menu_itemID) values (525, 46);
-insert into reservation_preorder (reservationID, menu_itemID) values (586, 18);
-insert into reservation_preorder (reservationID, menu_itemID) values (340, 66);
-insert into reservation_preorder (reservationID, menu_itemID) values (165, 29);
-insert into reservation_preorder (reservationID, menu_itemID) values (144, 68);
-insert into reservation_preorder (reservationID, menu_itemID) values (389, 58);
-insert into reservation_preorder (reservationID, menu_itemID) values (149, 58);
-insert into reservation_preorder (reservationID, menu_itemID) values (143, 25);
-insert into reservation_preorder (reservationID, menu_itemID) values (97, 60);
-insert into reservation_preorder (reservationID, menu_itemID) values (87, 46);
-insert into reservation_preorder (reservationID, menu_itemID) values (752, 45);
-insert into reservation_preorder (reservationID, menu_itemID) values (112, 60);
-insert into reservation_preorder (reservationID, menu_itemID) values (688, 3);
-insert into reservation_preorder (reservationID, menu_itemID) values (165, 62);
-insert into reservation_preorder (reservationID, menu_itemID) values (165, 68);
-insert into reservation_preorder (reservationID, menu_itemID) values (245, 59);
-insert into reservation_preorder (reservationID, menu_itemID) values (245, 43);
-insert into reservation_preorder (reservationID, menu_itemID) values (244, 16);
-insert into reservation_preorder (reservationID, menu_itemID) values (257, 18);
-insert into reservation_preorder (reservationID, menu_itemID) values (3, 69);
-insert into reservation_preorder (reservationID, menu_itemID) values (650, 60);
-insert into reservation_preorder (reservationID, menu_itemID) values (60, 20);
-insert into reservation_preorder (reservationID, menu_itemID) values (510, 50);
-insert into reservation_preorder (reservationID, menu_itemID) values (356, 58);
-insert into reservation_preorder (reservationID, menu_itemID) values (715, 53);
-insert into reservation_preorder (reservationID, menu_itemID) values (699, 27);
-insert into reservation_preorder (reservationID, menu_itemID) values (686, 68);
-insert into reservation_preorder (reservationID, menu_itemID) values (375, 20);
-insert into reservation_preorder (reservationID, menu_itemID) values (379, 43);
-insert into reservation_preorder (reservationID, menu_itemID) values (152, 54);
-insert into reservation_preorder (reservationID, menu_itemID) values (694, 20);
-insert into reservation_preorder (reservationID, menu_itemID) values (545, 46);
-insert into reservation_preorder (reservationID, menu_itemID) values (425, 19);
-insert into reservation_preorder (reservationID, menu_itemID) values (619, 5);
-insert into reservation_preorder (reservationID, menu_itemID) values (279, 22);
-insert into reservation_preorder (reservationID, menu_itemID) values (794, 70);
-insert into reservation_preorder (reservationID, menu_itemID) values (104, 14);
-insert into reservation_preorder (reservationID, menu_itemID) values (197, 34);
-insert into reservation_preorder (reservationID, menu_itemID) values (565, 45);
-insert into reservation_preorder (reservationID, menu_itemID) values (402, 1);
-insert into reservation_preorder (reservationID, menu_itemID) values (505, 38);
-insert into reservation_preorder (reservationID, menu_itemID) values (49, 23);
-insert into reservation_preorder (reservationID, menu_itemID) values (344, 26);
-insert into reservation_preorder (reservationID, menu_itemID) values (388, 69);
-insert into reservation_preorder (reservationID, menu_itemID) values (143, 36);
-insert into reservation_preorder (reservationID, menu_itemID) values (167, 32);
-insert into reservation_preorder (reservationID, menu_itemID) values (71, 24);
-insert into reservation_preorder (reservationID, menu_itemID) values (369, 9);
-insert into reservation_preorder (reservationID, menu_itemID) values (395, 11);
-insert into reservation_preorder (reservationID, menu_itemID) values (534, 22);
-insert into reservation_preorder (reservationID, menu_itemID) values (506, 44);
-insert into reservation_preorder (reservationID, menu_itemID) values (547, 66);
-insert into reservation_preorder (reservationID, menu_itemID) values (600, 51);
-insert into reservation_preorder (reservationID, menu_itemID) values (252, 63);
-insert into reservation_preorder (reservationID, menu_itemID) values (238, 14);
-insert into reservation_preorder (reservationID, menu_itemID) values (338, 68);
-insert into reservation_preorder (reservationID, menu_itemID) values (515, 42);
-insert into reservation_preorder (reservationID, menu_itemID) values (732, 46);
-insert into reservation_preorder (reservationID, menu_itemID) values (50, 26);
-insert into reservation_preorder (reservationID, menu_itemID) values (778, 25);
-insert into reservation_preorder (reservationID, menu_itemID) values (197, 2);
-insert into reservation_preorder (reservationID, menu_itemID) values (696, 24);
-insert into reservation_preorder (reservationID, menu_itemID) values (175, 52);
-insert into reservation_preorder (reservationID, menu_itemID) values (287, 56);
-insert into reservation_preorder (reservationID, menu_itemID) values (714, 23);
-insert into reservation_preorder (reservationID, menu_itemID) values (529, 65);
-insert into reservation_preorder (reservationID, menu_itemID) values (434, 69);
-insert into reservation_preorder (reservationID, menu_itemID) values (589, 14);
-insert into reservation_preorder (reservationID, menu_itemID) values (772, 52);
-insert into reservation_preorder (reservationID, menu_itemID) values (607, 43);
-insert into reservation_preorder (reservationID, menu_itemID) values (533, 28);
-insert into reservation_preorder (reservationID, menu_itemID) values (27, 61);
-insert into reservation_preorder (reservationID, menu_itemID) values (167, 45);
-insert into reservation_preorder (reservationID, menu_itemID) values (301, 40);
-insert into reservation_preorder (reservationID, menu_itemID) values (613, 59);
-insert into reservation_preorder (reservationID, menu_itemID) values (276, 59);
-insert into reservation_preorder (reservationID, menu_itemID) values (331, 47);
-insert into reservation_preorder (reservationID, menu_itemID) values (774, 23);
-insert into reservation_preorder (reservationID, menu_itemID) values (774, 36);
-insert into reservation_preorder (reservationID, menu_itemID) values (482, 31);
-insert into reservation_preorder (reservationID, menu_itemID) values (76, 51);
-insert into reservation_preorder (reservationID, menu_itemID) values (559, 9);
-insert into reservation_preorder (reservationID, menu_itemID) values (595, 25);
-insert into reservation_preorder (reservationID, menu_itemID) values (216, 13);
-insert into reservation_preorder (reservationID, menu_itemID) values (258, 33);
-insert into reservation_preorder (reservationID, menu_itemID) values (475, 58);
-insert into reservation_preorder (reservationID, menu_itemID) values (229, 10);
-insert into reservation_preorder (reservationID, menu_itemID) values (146, 22);
-insert into reservation_preorder (reservationID, menu_itemID) values (641, 68);
-insert into reservation_preorder (reservationID, menu_itemID) values (692, 21);
-insert into reservation_preorder (reservationID, menu_itemID) values (481, 40);
-insert into reservation_preorder (reservationID, menu_itemID) values (725, 52);
-insert into reservation_preorder (reservationID, menu_itemID) values (501, 52);
-insert into reservation_preorder (reservationID, menu_itemID) values (413, 42);
-insert into reservation_preorder (reservationID, menu_itemID) values (421, 55);
-insert into reservation_preorder (reservationID, menu_itemID) values (670, 34);
-insert into reservation_preorder (reservationID, menu_itemID) values (705, 24);
-insert into reservation_preorder (reservationID, menu_itemID) values (149, 33);
-insert into reservation_preorder (reservationID, menu_itemID) values (207, 69);
-insert into reservation_preorder (reservationID, menu_itemID) values (793, 61);
-insert into reservation_preorder (reservationID, menu_itemID) values (420, 30);
-insert into reservation_preorder (reservationID, menu_itemID) values (737, 58);
-insert into reservation_preorder (reservationID, menu_itemID) values (108, 13);
-insert into reservation_preorder (reservationID, menu_itemID) values (344, 9);
-insert into reservation_preorder (reservationID, menu_itemID) values (278, 66);
-insert into reservation_preorder (reservationID, menu_itemID) values (464, 48);
-insert into reservation_preorder (reservationID, menu_itemID) values (538, 27);
-insert into reservation_preorder (reservationID, menu_itemID) values (212, 22);
-insert into reservation_preorder (reservationID, menu_itemID) values (743, 17);
-insert into reservation_preorder (reservationID, menu_itemID) values (378, 16);
-insert into reservation_preorder (reservationID, menu_itemID) values (50, 65);
-insert into reservation_preorder (reservationID, menu_itemID) values (372, 55);
-insert into reservation_preorder (reservationID, menu_itemID) values (800, 34);
-insert into reservation_preorder (reservationID, menu_itemID) values (189, 44);
-insert into reservation_preorder (reservationID, menu_itemID) values (634, 17);
-insert into reservation_preorder (reservationID, menu_itemID) values (201, 4);
-insert into reservation_preorder (reservationID, menu_itemID) values (579, 50);
-insert into reservation_preorder (reservationID, menu_itemID) values (432, 5);
-insert into reservation_preorder (reservationID, menu_itemID) values (626, 28);
-insert into reservation_preorder (reservationID, menu_itemID) values (573, 46);
-insert into reservation_preorder (reservationID, menu_itemID) values (385, 70);
-insert into reservation_preorder (reservationID, menu_itemID) values (234, 44);
-insert into reservation_preorder (reservationID, menu_itemID) values (429, 60);
-insert into reservation_preorder (reservationID, menu_itemID) values (591, 46);
-insert into reservation_preorder (reservationID, menu_itemID) values (520, 23);
-insert into reservation_preorder (reservationID, menu_itemID) values (65, 57);
-insert into reservation_preorder (reservationID, menu_itemID) values (243, 24);
-insert into reservation_preorder (reservationID, menu_itemID) values (645, 3);
-insert into reservation_preorder (reservationID, menu_itemID) values (58, 11);
-insert into reservation_preorder (reservationID, menu_itemID) values (327, 21);
-insert into reservation_preorder (reservationID, menu_itemID) values (219, 24);
-insert into reservation_preorder (reservationID, menu_itemID) values (248, 14);
-insert into reservation_preorder (reservationID, menu_itemID) values (180, 66);
-insert into reservation_preorder (reservationID, menu_itemID) values (413, 2);
-insert into reservation_preorder (reservationID, menu_itemID) values (128, 35);
-insert into reservation_preorder (reservationID, menu_itemID) values (156, 24);
-insert into reservation_preorder (reservationID, menu_itemID) values (184, 51);
-insert into reservation_preorder (reservationID, menu_itemID) values (233, 6);
-insert into reservation_preorder (reservationID, menu_itemID) values (665, 3);
-insert into reservation_preorder (reservationID, menu_itemID) values (246, 55);
-insert into reservation_preorder (reservationID, menu_itemID) values (81, 69);
-insert into reservation_preorder (reservationID, menu_itemID) values (19, 1);
-insert into reservation_preorder (reservationID, menu_itemID) values (323, 8);
-insert into reservation_preorder (reservationID, menu_itemID) values (357, 5);
-insert into reservation_preorder (reservationID, menu_itemID) values (305, 32);
-insert into reservation_preorder (reservationID, menu_itemID) values (252, 46);
-insert into reservation_preorder (reservationID, menu_itemID) values (253, 39);
-insert into reservation_preorder (reservationID, menu_itemID) values (615, 3);
-insert into reservation_preorder (reservationID, menu_itemID) values (159, 7);
-insert into reservation_preorder (reservationID, menu_itemID) values (517, 6);
-insert into reservation_preorder (reservationID, menu_itemID) values (77, 44);
-insert into reservation_preorder (reservationID, menu_itemID) values (774, 45);
-insert into reservation_preorder (reservationID, menu_itemID) values (499, 38);
-insert into reservation_preorder (reservationID, menu_itemID) values (536, 32);
-insert into reservation_preorder (reservationID, menu_itemID) values (394, 32);
-insert into reservation_preorder (reservationID, menu_itemID) values (390, 10);
-insert into reservation_preorder (reservationID, menu_itemID) values (252, 44);
-insert into reservation_preorder (reservationID, menu_itemID) values (426, 25);
-insert into reservation_preorder (reservationID, menu_itemID) values (436, 48);
-insert into reservation_preorder (reservationID, menu_itemID) values (294, 33);
-insert into reservation_preorder (reservationID, menu_itemID) values (580, 49);
-insert into reservation_preorder (reservationID, menu_itemID) values (637, 26);
-insert into reservation_preorder (reservationID, menu_itemID) values (130, 1);
-insert into reservation_preorder (reservationID, menu_itemID) values (735, 4);
-insert into reservation_preorder (reservationID, menu_itemID) values (55, 63);
-insert into reservation_preorder (reservationID, menu_itemID) values (610, 59);
-insert into reservation_preorder (reservationID, menu_itemID) values (792, 2);
-insert into reservation_preorder (reservationID, menu_itemID) values (232, 66);
-insert into reservation_preorder (reservationID, menu_itemID) values (670, 58);
-insert into reservation_preorder (reservationID, menu_itemID) values (686, 48);
-insert into reservation_preorder (reservationID, menu_itemID) values (706, 62);
-insert into reservation_preorder (reservationID, menu_itemID) values (67, 54);
-insert into reservation_preorder (reservationID, menu_itemID) values (294, 40);
-insert into reservation_preorder (reservationID, menu_itemID) values (622, 11);
-insert into reservation_preorder (reservationID, menu_itemID) values (716, 18);
-insert into reservation_preorder (reservationID, menu_itemID) values (88, 34);
-insert into reservation_preorder (reservationID, menu_itemID) values (737, 41);
-insert into reservation_preorder (reservationID, menu_itemID) values (640, 64);
-insert into reservation_preorder (reservationID, menu_itemID) values (366, 53);
-insert into reservation_preorder (reservationID, menu_itemID) values (634, 33);
-insert into reservation_preorder (reservationID, menu_itemID) values (70, 60);
-insert into reservation_preorder (reservationID, menu_itemID) values (440, 62);
-insert into reservation_preorder (reservationID, menu_itemID) values (462, 34);
-insert into reservation_preorder (reservationID, menu_itemID) values (257, 54);
-insert into reservation_preorder (reservationID, menu_itemID) values (417, 23);
-insert into reservation_preorder (reservationID, menu_itemID) values (483, 13);
-insert into reservation_preorder (reservationID, menu_itemID) values (478, 57);
-insert into reservation_preorder (reservationID, menu_itemID) values (138, 35);
-insert into reservation_preorder (reservationID, menu_itemID) values (653, 6);
-insert into reservation_preorder (reservationID, menu_itemID) values (282, 39);
-insert into reservation_preorder (reservationID, menu_itemID) values (327, 31);
-insert into reservation_preorder (reservationID, menu_itemID) values (296, 6);
-insert into reservation_preorder (reservationID, menu_itemID) values (604, 43);
-insert into reservation_preorder (reservationID, menu_itemID) values (294, 53);
-insert into reservation_preorder (reservationID, menu_itemID) values (426, 31);
-insert into reservation_preorder (reservationID, menu_itemID) values (798, 28);
-insert into reservation_preorder (reservationID, menu_itemID) values (677, 43);
-insert into reservation_preorder (reservationID, menu_itemID) values (325, 42);
-insert into reservation_preorder (reservationID, menu_itemID) values (29, 64);
-insert into reservation_preorder (reservationID, menu_itemID) values (369, 50);
-insert into reservation_preorder (reservationID, menu_itemID) values (209, 45);
-insert into reservation_preorder (reservationID, menu_itemID) values (383, 20);
-insert into reservation_preorder (reservationID, menu_itemID) values (589, 56);
-insert into reservation_preorder (reservationID, menu_itemID) values (153, 54);
-insert into reservation_preorder (reservationID, menu_itemID) values (412, 13);
-insert into reservation_preorder (reservationID, menu_itemID) values (800, 41);
-insert into reservation_preorder (reservationID, menu_itemID) values (704, 8);
-insert into reservation_preorder (reservationID, menu_itemID) values (127, 69);
-insert into reservation_preorder (reservationID, menu_itemID) values (567, 9);
-insert into reservation_preorder (reservationID, menu_itemID) values (699, 56);
-insert into reservation_preorder (reservationID, menu_itemID) values (721, 47);
-insert into reservation_preorder (reservationID, menu_itemID) values (194, 11);
-insert into reservation_preorder (reservationID, menu_itemID) values (792, 66);
-insert into reservation_preorder (reservationID, menu_itemID) values (183, 1);
-insert into reservation_preorder (reservationID, menu_itemID) values (186, 48);
-insert into reservation_preorder (reservationID, menu_itemID) values (336, 58);
-insert into reservation_preorder (reservationID, menu_itemID) values (155, 10);
-insert into reservation_preorder (reservationID, menu_itemID) values (181, 32);
-insert into reservation_preorder (reservationID, menu_itemID) values (70, 14);
-insert into reservation_preorder (reservationID, menu_itemID) values (406, 2);
-insert into reservation_preorder (reservationID, menu_itemID) values (757, 55);
-insert into reservation_preorder (reservationID, menu_itemID) values (231, 20);
-insert into reservation_preorder (reservationID, menu_itemID) values (404, 20);
-insert into reservation_preorder (reservationID, menu_itemID) values (642, 41);
-insert into reservation_preorder (reservationID, menu_itemID) values (459, 23);
-insert into reservation_preorder (reservationID, menu_itemID) values (782, 4);
-insert into reservation_preorder (reservationID, menu_itemID) values (209, 35);
-insert into reservation_preorder (reservationID, menu_itemID) values (455, 42);
-insert into reservation_preorder (reservationID, menu_itemID) values (558, 51);
-insert into reservation_preorder (reservationID, menu_itemID) values (107, 8);
-insert into reservation_preorder (reservationID, menu_itemID) values (485, 19);
-insert into reservation_preorder (reservationID, menu_itemID) values (606, 26);
-insert into reservation_preorder (reservationID, menu_itemID) values (22, 31);
-insert into reservation_preorder (reservationID, menu_itemID) values (646, 44);
-insert into reservation_preorder (reservationID, menu_itemID) values (780, 59);
-insert into reservation_preorder (reservationID, menu_itemID) values (742, 34);
-insert into reservation_preorder (reservationID, menu_itemID) values (348, 42);
-insert into reservation_preorder (reservationID, menu_itemID) values (642, 62);
-insert into reservation_preorder (reservationID, menu_itemID) values (656, 23);
-insert into reservation_preorder (reservationID, menu_itemID) values (722, 57);
-insert into reservation_preorder (reservationID, menu_itemID) values (742, 45);
-insert into reservation_preorder (reservationID, menu_itemID) values (634, 22);
-insert into reservation_preorder (reservationID, menu_itemID) values (271, 38);
-insert into reservation_preorder (reservationID, menu_itemID) values (702, 65);
-insert into reservation_preorder (reservationID, menu_itemID) values (77, 65);
-insert into reservation_preorder (reservationID, menu_itemID) values (54, 67);
-insert into reservation_preorder (reservationID, menu_itemID) values (188, 67);
-insert into reservation_preorder (reservationID, menu_itemID) values (453, 33);
-insert into reservation_preorder (reservationID, menu_itemID) values (123, 18);
-insert into reservation_preorder (reservationID, menu_itemID) values (377, 29);
-insert into reservation_preorder (reservationID, menu_itemID) values (611, 29);
-insert into reservation_preorder (reservationID, menu_itemID) values (719, 60);
-insert into reservation_preorder (reservationID, menu_itemID) values (271, 56);
-insert into reservation_preorder (reservationID, menu_itemID) values (796, 67);
-insert into reservation_preorder (reservationID, menu_itemID) values (179, 39);
-insert into reservation_preorder (reservationID, menu_itemID) values (570, 53);
-insert into reservation_preorder (reservationID, menu_itemID) values (668, 23);
-insert into reservation_preorder (reservationID, menu_itemID) values (421, 22);
-insert into reservation_preorder (reservationID, menu_itemID) values (274, 3);
-insert into reservation_preorder (reservationID, menu_itemID) values (217, 13);
-insert into reservation_preorder (reservationID, menu_itemID) values (81, 16);
-insert into reservation_preorder (reservationID, menu_itemID) values (538, 38);
-insert into reservation_preorder (reservationID, menu_itemID) values (403, 20);
-insert into reservation_preorder (reservationID, menu_itemID) values (335, 41);
-insert into reservation_preorder (reservationID, menu_itemID) values (340, 19);
-insert into reservation_preorder (reservationID, menu_itemID) values (26, 11);
-insert into reservation_preorder (reservationID, menu_itemID) values (464, 17);
-insert into reservation_preorder (reservationID, menu_itemID) values (504, 10);
-insert into reservation_preorder (reservationID, menu_itemID) values (720, 36);
-insert into reservation_preorder (reservationID, menu_itemID) values (715, 48);
-insert into reservation_preorder (reservationID, menu_itemID) values (755, 69);
-insert into reservation_preorder (reservationID, menu_itemID) values (402, 59);
-insert into reservation_preorder (reservationID, menu_itemID) values (429, 66);
-insert into reservation_preorder (reservationID, menu_itemID) values (784, 38);
-insert into reservation_preorder (reservationID, menu_itemID) values (5, 15);
-insert into reservation_preorder (reservationID, menu_itemID) values (259, 66);
-insert into reservation_preorder (reservationID, menu_itemID) values (715, 15);
-insert into reservation_preorder (reservationID, menu_itemID) values (340, 5);
-insert into reservation_preorder (reservationID, menu_itemID) values (797, 9);
-insert into reservation_preorder (reservationID, menu_itemID) values (97, 19);
-insert into reservation_preorder (reservationID, menu_itemID) values (555, 65);
-insert into reservation_preorder (reservationID, menu_itemID) values (792, 11);
-insert into reservation_preorder (reservationID, menu_itemID) values (594, 59);
-insert into reservation_preorder (reservationID, menu_itemID) values (53, 9);
-insert into reservation_preorder (reservationID, menu_itemID) values (163, 12);
-insert into reservation_preorder (reservationID, menu_itemID) values (74, 67);
-insert into reservation_preorder (reservationID, menu_itemID) values (290, 56);
-insert into reservation_preorder (reservationID, menu_itemID) values (213, 64);
-insert into reservation_preorder (reservationID, menu_itemID) values (147, 45);
-insert into reservation_preorder (reservationID, menu_itemID) values (287, 49);
-insert into reservation_preorder (reservationID, menu_itemID) values (537, 26);
-insert into reservation_preorder (reservationID, menu_itemID) values (478, 4);
-insert into reservation_preorder (reservationID, menu_itemID) values (184, 20);
-insert into reservation_preorder (reservationID, menu_itemID) values (339, 56);
-insert into reservation_preorder (reservationID, menu_itemID) values (103, 34);
-insert into reservation_preorder (reservationID, menu_itemID) values (789, 68);
-insert into reservation_preorder (reservationID, menu_itemID) values (500, 39);
-insert into reservation_preorder (reservationID, menu_itemID) values (570, 20);
-insert into reservation_preorder (reservationID, menu_itemID) values (123, 47);
-insert into reservation_preorder (reservationID, menu_itemID) values (436, 61);
-insert into reservation_preorder (reservationID, menu_itemID) values (661, 3);
-insert into reservation_preorder (reservationID, menu_itemID) values (622, 70);
-insert into reservation_preorder (reservationID, menu_itemID) values (457, 29);
-insert into reservation_preorder (reservationID, menu_itemID) values (800, 6);
-insert into reservation_preorder (reservationID, menu_itemID) values (731, 52);
-insert into reservation_preorder (reservationID, menu_itemID) values (46, 21);
-insert into reservation_preorder (reservationID, menu_itemID) values (550, 16);
-insert into reservation_preorder (reservationID, menu_itemID) values (670, 34);
-insert into reservation_preorder (reservationID, menu_itemID) values (12, 14);
-insert into reservation_preorder (reservationID, menu_itemID) values (280, 23);
-insert into reservation_preorder (reservationID, menu_itemID) values (630, 22);
-insert into reservation_preorder (reservationID, menu_itemID) values (247, 38);
-insert into reservation_preorder (reservationID, menu_itemID) values (220, 26);
-insert into reservation_preorder (reservationID, menu_itemID) values (347, 30);
-insert into reservation_preorder (reservationID, menu_itemID) values (72, 67);
-insert into reservation_preorder (reservationID, menu_itemID) values (553, 24);
-insert into reservation_preorder (reservationID, menu_itemID) values (760, 57);
-insert into reservation_preorder (reservationID, menu_itemID) values (458, 60);
-insert into reservation_preorder (reservationID, menu_itemID) values (714, 9);
-insert into reservation_preorder (reservationID, menu_itemID) values (166, 12);
-insert into reservation_preorder (reservationID, menu_itemID) values (431, 10);
-insert into reservation_preorder (reservationID, menu_itemID) values (343, 1);
-insert into reservation_preorder (reservationID, menu_itemID) values (101, 30);
-insert into reservation_preorder (reservationID, menu_itemID) values (703, 59);
-insert into reservation_preorder (reservationID, menu_itemID) values (629, 54);
-insert into reservation_preorder (reservationID, menu_itemID) values (526, 7);
-insert into reservation_preorder (reservationID, menu_itemID) values (488, 10);
-insert into reservation_preorder (reservationID, menu_itemID) values (584, 49);
-insert into reservation_preorder (reservationID, menu_itemID) values (542, 69);
-insert into reservation_preorder (reservationID, menu_itemID) values (774, 60);
-insert into reservation_preorder (reservationID, menu_itemID) values (581, 11);
-insert into reservation_preorder (reservationID, menu_itemID) values (58, 67);
-insert into reservation_preorder (reservationID, menu_itemID) values (156, 36);
-insert into reservation_preorder (reservationID, menu_itemID) values (791, 8);
-insert into reservation_preorder (reservationID, menu_itemID) values (352, 70);
-insert into reservation_preorder (reservationID, menu_itemID) values (685, 5);
-insert into reservation_preorder (reservationID, menu_itemID) values (694, 49);
-insert into reservation_preorder (reservationID, menu_itemID) values (150, 69);
-insert into reservation_preorder (reservationID, menu_itemID) values (399, 36);
-insert into reservation_preorder (reservationID, menu_itemID) values (316, 9);
+insert into reservation_preorder (reservationID, menu_itemID) values
+ (428, 3),
+ (325, 32),
+ (354, 36),
+ (587, 29),
+ (304, 1),
+ (638, 45),
+ (322, 12),
+ (776, 6),
+ (31, 29),
+ (642, 4),
+ (557, 20),
+ (464, 4),
+ (340, 67),
+ (668, 67),
+ (493, 59),
+ (532, 17),
+ (411, 6),
+ (94, 61),
+ (684, 21),
+ (632, 45),
+ (361, 47),
+ (258, 63),
+ (683, 41),
+ (422, 35),
+ (736, 54),
+ (275, 50),
+ (520, 23),
+ (767, 29),
+ (138, 59),
+ (31, 24),
+ (513, 4),
+ (157, 37),
+ (450, 68),
+ (111, 17),
+ (525, 61),
+ (213, 63),
+ (641, 25),
+ (693, 59),
+ (297, 51),
+ (604, 33),
+ (176, 48),
+ (123, 17),
+ (675, 6),
+ (797, 69),
+ (293, 49),
+ (205, 20),
+ (163, 50),
+ (6, 56),
+ (10, 53),
+ (686, 4),
+ (166, 34),
+ (384, 16),
+ (236, 9),
+ (540, 69),
+ (39, 21),
+ (614, 18),
+ (43, 1),
+ (485, 44),
+ (186, 11),
+ (418, 5),
+ (551, 27),
+ (129, 13),
+ (88, 28),
+ (413, 51),
+ (631, 39),
+ (415, 52),
+ (518, 59),
+ (508, 53),
+ (458, 63),
+ (751, 24),
+ (190, 19),
+ (265, 11),
+ (161, 45),
+ (566, 53),
+ (665, 27),
+ (555, 68),
+ (364, 4),
+ (479, 67),
+ (374, 26),
+ (723, 37),
+ (505, 59),
+ (98, 42),
+ (201, 41),
+ (87, 1),
+ (489, 37),
+ (448, 58),
+ (597, 14),
+ (337, 52),
+ (430, 35),
+ (131, 20),
+ (748, 41),
+ (521, 69),
+ (201, 52),
+ (234, 32),
+ (620, 47),
+ (750, 58),
+ (94, 31),
+ (614, 12),
+ (245, 31),
+ (623, 9),
+ (405, 38),
+ (770, 54),
+ (194, 64),
+ (21, 36),
+ (30, 34),
+ (382, 38),
+ (687, 69),
+ (656, 17),
+ (763, 24),
+ (44, 33),
+ (211, 4),
+ (40, 68),
+ (468, 18),
+ (282, 39),
+ (164, 45),
+ (75, 29),
+ (158, 45),
+ (718, 28),
+ (134, 34),
+ (672, 60),
+ (401, 61),
+ (391, 20),
+ (245, 47),
+ (656, 51),
+ (166, 8),
+ (421, 5),
+ (152, 30),
+ (710, 1),
+ (280, 43),
+ (431, 5),
+ (596, 37),
+ (569, 26),
+ (328, 6),
+ (376, 24),
+ (533, 6),
+ (39, 4),
+ (257, 3),
+ (120, 16),
+ (376, 14),
+ (64, 67),
+ (657, 60),
+ (42, 40),
+ (190, 29),
+ (267, 33),
+ (492, 19),
+ (306, 70),
+ (595, 18),
+ (564, 38),
+ (758, 39),
+ (441, 60),
+ (209, 6),
+ (291, 21),
+ (600, 63),
+ (233, 61),
+ (149, 14),
+ (612, 61),
+ (184, 43),
+ (168, 16),
+ (18, 21),
+ (342, 61),
+ (525, 46),
+ (586, 18),
+ (340, 66),
+ (165, 29),
+ (144, 68),
+ (389, 58),
+ (149, 58),
+ (143, 25),
+ (97, 60),
+ (87, 46),
+ (752, 45),
+ (112, 60),
+ (688, 3),
+ (165, 62),
+ (165, 68),
+ (245, 59),
+ (245, 43),
+ (244, 16),
+ (257, 18),
+ (3, 69),
+ (650, 60),
+ (60, 20),
+ (510, 50),
+ (356, 58),
+ (715, 53),
+ (699, 27),
+ (686, 68),
+ (375, 20),
+ (379, 43),
+ (152, 54),
+ (694, 20),
+ (545, 46),
+ (425, 19),
+ (619, 5),
+ (279, 22),
+ (794, 70),
+ (104, 14),
+ (197, 34),
+ (565, 45),
+ (402, 1),
+ (505, 38),
+ (49, 23),
+ (344, 26),
+ (388, 69),
+ (143, 36),
+ (167, 32),
+ (71, 24),
+ (369, 9),
+ (395, 11),
+ (534, 22),
+ (506, 44),
+ (547, 66),
+ (600, 51),
+ (252, 63),
+ (238, 14),
+ (338, 68),
+ (515, 42),
+ (732, 46),
+ (50, 26),
+ (778, 25),
+ (197, 2),
+ (696, 24),
+ (175, 52),
+ (287, 56),
+ (714, 23),
+ (529, 65),
+ (434, 69),
+ (589, 14),
+ (772, 52),
+ (607, 43),
+ (533, 28),
+ (27, 61),
+ (167, 45),
+ (301, 40),
+ (613, 59),
+ (276, 59),
+ (331, 47),
+ (774, 23),
+ (774, 36),
+ (482, 31),
+ (76, 51),
+ (559, 9),
+ (595, 25),
+ (216, 13),
+ (258, 33),
+ (475, 58),
+ (229, 10),
+ (146, 22),
+ (641, 68),
+ (692, 21),
+ (481, 40),
+ (725, 52),
+ (501, 52),
+ (413, 42),
+ (421, 55),
+ (670, 34),
+ (705, 24),
+ (149, 33),
+ (207, 69),
+ (793, 61),
+ (420, 30),
+ (737, 58),
+ (108, 13),
+ (344, 9),
+ (278, 66),
+ (464, 48),
+ (538, 27),
+ (212, 22),
+ (743, 17),
+ (378, 16),
+ (50, 65),
+ (372, 55),
+ (800, 34),
+ (189, 44),
+ (634, 17),
+ (201, 4),
+ (579, 50),
+ (432, 5),
+ (626, 28),
+ (573, 46),
+ (385, 70),
+ (234, 44),
+ (429, 60),
+ (591, 46),
+ (520, 23),
+ (65, 57),
+ (243, 24),
+ (645, 3),
+ (58, 11),
+ (327, 21),
+ (219, 24),
+ (248, 14),
+ (180, 66),
+ (413, 2),
+ (128, 35),
+ (156, 24),
+ (184, 51),
+ (233, 6),
+ (665, 3),
+ (246, 55),
+ (81, 69),
+ (19, 1),
+ (323, 8),
+ (357, 5),
+ (305, 32),
+ (252, 46),
+ (253, 39),
+ (615, 3),
+ (159, 7),
+ (517, 6),
+ (77, 44),
+ (774, 45),
+ (499, 38),
+ (536, 32),
+ (394, 32),
+ (390, 10),
+ (252, 44),
+ (426, 25),
+ (436, 48),
+ (294, 33),
+ (580, 49),
+ (637, 26),
+ (130, 1),
+ (735, 4),
+ (55, 63),
+ (610, 59),
+ (792, 2),
+ (232, 66),
+ (670, 58),
+ (686, 48),
+ (706, 62),
+ (67, 54),
+ (294, 40),
+ (622, 11),
+ (716, 18),
+ (88, 34),
+ (737, 41),
+ (640, 64),
+ (366, 53),
+ (634, 33),
+ (70, 60),
+ (440, 62),
+ (462, 34),
+ (257, 54),
+ (417, 23),
+ (483, 13),
+ (478, 57),
+ (138, 35),
+ (653, 6),
+ (282, 39),
+ (327, 31),
+ (296, 6),
+ (604, 43),
+ (294, 53),
+ (426, 31),
+ (798, 28),
+ (677, 43),
+ (325, 42),
+ (29, 64),
+ (369, 50),
+ (209, 45),
+ (383, 20),
+ (589, 56),
+ (153, 54),
+ (412, 13),
+ (800, 41),
+ (704, 8),
+ (127, 69),
+ (567, 9),
+ (699, 56),
+ (721, 47),
+ (194, 11),
+ (792, 66),
+ (183, 1),
+ (186, 48),
+ (336, 58),
+ (155, 10),
+ (181, 32),
+ (70, 14),
+ (406, 2),
+ (757, 55),
+ (231, 20),
+ (404, 20),
+ (642, 41),
+ (459, 23),
+ (782, 4),
+ (209, 35),
+ (455, 42),
+ (558, 51),
+ (107, 8),
+ (485, 19),
+ (606, 26),
+ (22, 31),
+ (646, 44),
+ (780, 59),
+ (742, 34),
+ (348, 42),
+ (642, 62),
+ (656, 23),
+ (722, 57),
+ (742, 45),
+ (634, 22),
+ (271, 38),
+ (702, 65),
+ (77, 65),
+ (54, 67),
+ (188, 67),
+ (453, 33),
+ (123, 18),
+ (377, 29),
+ (611, 29),
+ (719, 60),
+ (271, 56),
+ (796, 67),
+ (179, 39),
+ (570, 53),
+ (668, 23),
+ (421, 22),
+ (274, 3),
+ (217, 13),
+ (81, 16),
+ (538, 38),
+ (403, 20),
+ (335, 41),
+ (340, 19),
+ (26, 11),
+ (464, 17),
+ (504, 10),
+ (720, 36),
+ (715, 48),
+ (755, 69),
+ (402, 59),
+ (429, 66),
+ (784, 38),
+ (5, 15),
+ (259, 66),
+ (715, 15),
+ (340, 5),
+ (797, 9),
+ (97, 19),
+ (555, 65),
+ (792, 11),
+ (594, 59),
+ (53, 9),
+ (163, 12),
+ (74, 67),
+ (290, 56),
+ (213, 64),
+ (147, 45),
+ (287, 49),
+ (537, 26),
+ (478, 4),
+ (184, 20),
+ (339, 56),
+ (103, 34),
+ (789, 68),
+ (500, 39),
+ (570, 20),
+ (123, 47),
+ (436, 61),
+ (661, 3),
+ (622, 70),
+ (457, 29),
+ (800, 6),
+ (731, 52),
+ (46, 21),
+ (550, 16),
+ (670, 34),
+ (12, 14),
+ (280, 23),
+ (630, 22),
+ (247, 38),
+ (220, 26),
+ (347, 30),
+ (72, 67),
+ (553, 24),
+ (760, 57),
+ (458, 60),
+ (714, 9),
+ (166, 12),
+ (431, 10),
+ (343, 1),
+ (101, 30),
+ (703, 59),
+ (629, 54),
+ (526, 7),
+ (488, 10),
+ (584, 49),
+ (542, 69),
+ (774, 60),
+ (581, 11),
+ (58, 67),
+ (156, 36),
+ (791, 8),
+ (352, 70),
+ (685, 5),
+ (694, 49),
+ (150, 69),
+ (399, 36),
+ (316, 9);
 
 
 

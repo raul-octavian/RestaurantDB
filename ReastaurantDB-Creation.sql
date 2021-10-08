@@ -59,6 +59,9 @@ CREATE TABLE menu_item_has_ingredient (
   inputID int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
   menu_itemID int(11) NOT NULL,
   ingredientID int(11) NOT NULL,
+  qty int(5) NOT NULL,
+  ingredint_unitID int (11) NOT NULL,
+  FOREIGN KEY (ingredint_unitID) REFERENCES unit (unitID),
   FOREIGN KEY (menu_itemID) REFERENCES menu_item (menu_itemID),
   FOREIGN KEY (ingredientID) REFERENCES ingredient (ingredientID)
 );
